@@ -64,18 +64,23 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Farpy provides distributed GPU rendering services, offering verified compute results for Blender workloads. Users can submit rendering jobs, receiving locked quotes and finished frames, with limited availability of 1–10 frames per job. The platform emphasizes server‑authoritative results, supporting Blender 5.2.2 Cycles CUDA, and targets creators needing scalable cloud GPU power.
+Farpy provides distributed GPU rendering power for everyone, offering verified compute results through a server‑authoritative locked‑quote system. Users can submit Blender jobs (1–10 frames per job) and receive finished renders, with limited availability and a focus on high‑quality Cycles CUDA output.
 
-**Areas:** GPU · Rendering · Blender · Cloud · Distributed
+**Areas:** Company · GPU · Rendering · Blender · Cloud
 
 ## Farpy on APIs.io
 
 Everything profiled for Farpy is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/farpy-com/](https://apis.io/providers/farpy-com/)** — or go straight to one of the APIs or properties below.
 
-### APIs (2)
+### APIs (7)
 
-- [FARPY Public API](https://apis.io/apis/farpy-com/farpy-public-api/) — Blender Cycles rendering at one USD cent per frame.
-- [FARPY Public API API](https://apis.io/apis/farpy-com/farpy-public-api-api/) — Blender Cycles rendering at one USD cent per frame.
+- [Farpy Api Keys API](https://apis.io/apis/farpy-com/farpy-com-api-keys-api/) — The Api Keys API from Farpy — 2 operation(s) for api keys.
+- [Farpy Capabilities API](https://apis.io/apis/farpy-com/farpy-com-capabilities-api/) — The Capabilities API from Farpy — 1 operation(s) for capabilities.
+- [Farpy Health API](https://apis.io/apis/farpy-com/farpy-com-health-api/) — The Health API from Farpy — 1 operation(s) for health.
+- [Farpy Limits API](https://apis.io/apis/farpy-com/farpy-com-limits-api/) — The Limits API from Farpy — 1 operation(s) for limits.
+- [Farpy Pricing API](https://apis.io/apis/farpy-com/farpy-com-pricing-api/) — The Pricing API from Farpy — 1 operation(s) for pricing.
+- [Farpy Renders API](https://apis.io/apis/farpy-com/farpy-com-renders-api/) — The Renders API from Farpy — 8 operation(s) for renders.
+- [Farpy Workspace API](https://apis.io/apis/farpy-com/farpy-com-workspace-api/) — The Workspace API from Farpy — 1 operation(s) for workspace.
 
 ### Published properties
 
@@ -86,6 +91,12 @@ Each property below is a page on APIs.io carrying the machine-readable artifact 
 Event-driven and webhook contracts.
 
 - [Farpy Com Webhooks](https://apis.io/asyncapis/farpy-com/farpy-com-webhooks/)
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [Farpy Com Agentic Access](https://apis.io/agentic-access/farpy-com/farpy-com-agentic-access/)
 
 #### JSON Schema (6)
 
@@ -134,23 +145,23 @@ Links to the company's own pages. This repository publishes no copy of their spe
 
 ## API Evangelist rating
 
-**Kin Score 54.6** — strong · rubric 0.27.0 · scored 2026-11-07
+**Kin Score 56.5** — strong · rubric 0.27.0 · scored 2026-11-08
 
 | Facet | Score |
 |---|---|
 | Discoverability | 66.1 |
-| Contract quality | 58.9 |
+| Contract quality | 61.3 |
 | Contract governance | 79.1 |
 | Operational transparency | 34.2 |
-| Developer ergonomics | 40.5 |
+| Developer ergonomics | 46.9 |
 | Access clarity | 44.7 |
 
-**Agent readiness 43.0** — agent-native
+**Agent readiness 53.7** — agent-native
 
 | Agent-readiness dimension | Result |
 |---|---|
 | Spec Presence | yes |
-| Agentic Access | — |
+| Agentic Access | unknown |
 | Reversibility Documented | — |
 | MCP Server | documented (partial credit) |
 | Auth Clarity | served (partial credit) |
@@ -159,7 +170,7 @@ Links to the company's own pages. This repository publishes no copy of their spe
 | OpenAPI Examples | — |
 | Rate Limit Signal | — |
 | Event Surface Described | unknown |
-| Agent Skills | — |
+| Agent Skills | unknown |
 | Well Known Catalog | — |
 | Consent Identity | — |
 | Agent Card | — |
@@ -169,7 +180,7 @@ Links to the company's own pages. This repository publishes no copy of their spe
 | Dynamic Client Registration | — |
 | Agentic Commerce | — |
 | Pagination Ratio | na |
-| Operation Distinctiveness | na |
+| Operation Distinctiveness | distinct |
 | MCP Tool Quality | na |
 
 **Regulatory alignment 30.4** — Horizontal (data, software, accessibility, platform)
